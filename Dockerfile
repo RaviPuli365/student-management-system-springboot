@@ -1,4 +1,4 @@
 FROM openjdk:11
-COPY ./spring-boot-web-0.0.1-SNAPSHOT.jar /
+COPY target/demo-0.0.1.jar /
 WORKDIR /
-CMD ["java", "-jar", "spring-boot-web-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "demo-0.0.1.jar"]
